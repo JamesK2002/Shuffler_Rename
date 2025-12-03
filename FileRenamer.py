@@ -5,6 +5,7 @@ from watchdog.events import FileSystemEventHandler
 
 
 CATEGORIES = [
+    #directories need to be adjusted if used
     r"C:\Users\ayomi\Downloads\rawdata_spring2025-20251004T004727Z-1-001\processed\right",
     r"C:\Users\ayomi\Downloads\rawdata_spring2025-20251004T004727Z-1-001\processed\left",
     r"C:\Users\ayomi\Downloads\rawdata_spring2025-20251004T004727Z-1-001\processed\forward",
@@ -114,3 +115,4 @@ def start_monitor():
 
 if __name__ == "__main__":
     start_monitor()
+
